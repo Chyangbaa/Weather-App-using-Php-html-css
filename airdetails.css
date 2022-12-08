@@ -1,0 +1,56 @@
+*{
+		font-family: 'Quicksand', sans-serif;
+}
+body{
+	    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("back.jpg");
+	        background-position: center;
+	        background-size: cover;
+	        min-height: 95vh;
+	     position: relative;
+	    background-repeat: no-repeat;
+	    
+}
+#back{
+	left: -15px;
+top: 0px;
+font-size: 40px;
+color: white;
+padding: 0px 16px;
+position: relative;
+}
+.container{
+color: white;
+width: 23%;
+padding: 0px 23px;
+background: rgba(0,0,0,0.3);
+box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 90);
+backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+position: absolute;
+right: 40%;
+top: 26%;
+}	
+.container ul{
+	padding: 0 0 1em 0;
+	margin: 2em 0;
+	border-bottom: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+}
+.container ul li{
+	margin: 2em 0;
+}
+.air li{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	color: white;
+position: absolute;
+left: 34%;
+top: 14%;
+max-width: 26%;
+
+}
+ul p{
+
+}

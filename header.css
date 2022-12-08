@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+		width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("back.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.container{
+
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.row
+{
+	display: flex;
+	height: 75%;
+	align-items: flex-end;
+	position: absolute;
+	bottom: 35px;
+	transform: skew(-6deg);
+}
+.col{
+
+	width: 600px;
+}
+.col2{
+	position: absolute;
+left: 100%;
+width: 100%;
+top: -100px;
+text-align: right;
+}
+h1{
+	color: white;
+	font-size: 82px;
+}
+p{
+	color: white;
+	font-size: 11px;
+	line-height: 15px;
+}
+.container .col2 a{
+width: 140px;
+color: #000;
+font-size: 16px;
+padding: 10px 0px;
+background: #fff;
+border: 0;
+border-radius: 20px;
+outline: none;
+margin-top: 30px;
+border-radius: 19px 0 20px 0;
+cursor: pointer;
+display: block;
+text-decoration: none;
+text-align: center;
+float:right;
+transition: 0.5s;
+	}
+
+.container .col2 a:hover{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 90);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 2px solid antiquewhite;
+border-left: 2px solid white;
+}	
+.card:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color: white;
+	font-size: 20px;
+	text-shadow: 0 0 5px #999;
+	border-bottom: 2px solid white;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 11px;
+	color: white;
+line-height: 15px;
+position: absolute;
+top: 55px;
+}
+.card a{
+	text-decoration: none;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-color: white;
+	border: none;
+	width: 80px;
+	text-align: center;
+	color:black;
+	border-radius: 56px 0px 30px 0px;
+}
+.card a:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+

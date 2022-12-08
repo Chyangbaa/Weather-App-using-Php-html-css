@@ -1,0 +1,89 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+	
+}
+.datepicker{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ #back{
+	left: 40px;
+	top: 25px;
+	font-size: 35px;
+	color: black;
+	padding: 6px 12px;
+
+}
+
+.datepicker p{
+	position: absolute;
+	right: 277px ;
+	font-size: 22px;
+}
+.search-bar input{
+	background: transparent;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 17px;
+	color: white;
+}
+::placeholder{
+	color: white;
+	font-size: 15px;
+}
+.search-bar{
+width: 25%;
+max-width: 232px;
+background: rgba(0, 0, 0, 0.3);
+display: flex;
+align-items: center;
+border-radius: 70px;
+padding: 5px 10px;
+height: 26px;
+box-shadow: 0 0 13px rgba(0, 0, 0, 0.6);
+}
+.search-bar button i{
+	width: 25px;
+}
+.search-bar button {
+	border: 0;
+	border-radius: 50%;
+	width: 39px;
+	height: 37px;
+	background: rgba(0,0,0,0.5);
+	cursor: pointer;
+	position: absolute;
+	right: 8px;
+	color: white;
+}
+
+.content-table{
+	border-collapse: collapse;
+	font-size: 0.9em;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+	width: 104%;
+	}
+.content-table thead tr{
+	background-color: rgba(0,0,0,0.6);
+
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table th,
+.content-table td{
+	padding: 12px 15px;
+}
+.content-table tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+	border-bottom: 2px solid rgba(0,0,0,0.6);
+}
